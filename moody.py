@@ -101,7 +101,7 @@ if __name__ == "__main__":
     lamp = 0
 
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "h:p:l:d?", ["host=", "port=", "lamp=?", "debug", "help"])
+        opts, args = getopt.getopt(sys.argv[1:], "h:p:l:d?", ["host=", "port=", "lamp=", "debug", "help"])
     except getopt.GetoptError:
         print_usage()
         sys.exit(2)
