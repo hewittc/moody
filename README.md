@@ -1,10 +1,9 @@
-=== moody ===
+moody
+=====
 
 Simple color control for muCCC's moodlamp daemon (mld).
 
 Tested with python 2.7 and pygtk 2.24.
-
-----
 
     Usage: ./moody.py [OPTION...]  
     `moody' is a simple moodlamp color changing interface for `mld'.  
